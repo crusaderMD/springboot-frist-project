@@ -26,13 +26,8 @@ public class ProductController {
 
     @GetMapping("/{id}")
     public ResponseEntity<?> getProduct(@PathVariable Long id) {
-        try {
             Product product = productService.getProduct(id);
             return ResponseEntity.ok(product);
-        }
-        catch (ResourceNotFoundException e) {
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
-        }
     }
 
     @PostMapping
