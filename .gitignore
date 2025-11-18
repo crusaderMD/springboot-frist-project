@@ -1,0 +1,69 @@
+# -------------------------------------------
+# SPRING BOOT / MAVEN (OFICIAL)
+# -------------------------------------------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Maven Wrapper executables (opcional manter)
+mvnw
+mvnw.cmd
+
+# -------------------------------------------
+# INTELLIJ IDEA
+# -------------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IntelliJ cache & metadata
+shelf/
+workspace.xml
+
+# -------------------------------------------
+# SPRING TOOL SUITE / ECLIPSE
+# -------------------------------------------
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# -------------------------------------------
+# NETBEANS
+# -------------------------------------------
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# -------------------------------------------
+# VISUAL STUDIO CODE
+# -------------------------------------------
+.vscode/
+
+# -------------------------------------------
+# ENVIRONMENT VARIABLES (.env)
+# -------------------------------------------
+*.env
+
+# -------------------------------------------
+# SISTEMA OPERACIONAL
+# -------------------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------------------
+# LOGS (caso existam na raiz)
+# -------------------------------------------
+*.log
+
+# -------------------------------------------
+# BACKUPS
+# -------------------------------------------
+*.bak
+*.tmp
